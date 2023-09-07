@@ -60,8 +60,8 @@ def get_user_recommendations(customer_id, new_user_recs, df_product_product_idx)
 ############################################################################################
 
 # Input customer id
-number = st.number_input("Nhập customer id:", min_value=0)
-st.write("customer id bạn nhập là: ", number)
+number = st.number_input("Nhập customer id (ví dụ: 709310, 10701688, 9909549...):", min_value=0)
+st.write("Customer id bạn nhập là: ", number)
 
 # Choose maximum number of products that system will recommend
 n = st.slider(
@@ -89,5 +89,3 @@ if st.button('Recommend'):
     result_df = result_df[["product_id", "short_name", "rating"]]
 
     st.write(result_df)
-
-
