@@ -4,7 +4,5 @@ underthesea
 gensim
 seaborn
 matplotlib
-Copy code
 scikit-learn
-PIL
-base64
+
