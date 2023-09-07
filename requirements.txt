@@ -1,0 +1,10 @@
+streamlit
+pandas
+underthesea
+gensim
+seaborn
+matplotlib.pyplot
+sklearn
+pickle
+PIL
+base64
