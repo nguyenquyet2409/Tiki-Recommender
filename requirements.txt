@@ -3,7 +3,7 @@ pandas
 underthesea
 gensim
 seaborn
-matplotlib.pyplot
+matplotlib
 sklearn
 pickle
 PIL
