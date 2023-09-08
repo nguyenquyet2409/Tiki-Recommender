@@ -11,6 +11,27 @@ import seaborn as sns
 import streamlit as st
 import pickle
 
+
+page_bg_img = '''
+<style>
+[data-testid="stAppViewContainer"]{
+background-color: #a2a5ad;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #a2a5ad 40px ), repeating-linear-gradient( #8692a555, #8692a5 );
+}
+
+[data-testid="stHeader"] {
+background: rgba(0,0,0,0);
+}
+
+[data-testid="stSidebar"] {
+background: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+}
+
+</style>
+'''
+st.markdown(page_bg_img, unsafe_allow_html=True  )
+
 ############################################################################################
 st.title("Content Based Filtering")
 Product = pd.read_csv('Product_clean.csv', encoding="utf8", index_col=0)
