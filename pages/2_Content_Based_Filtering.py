@@ -12,17 +12,18 @@ import streamlit as st
 import pickle
 
 
-page_bg_img = '''
+page_bg_dark = '''
 <style>
 body {
-    background-color: #f2f2f2; /* Màu nền tổng thể */
+    background-color: #121212; /* Màu nền đen */
+    color: #ffffff; /* Màu chữ trắng */
     font-family: Arial, sans-serif; /* Font chữ */
 }
 
 [data-testid="stAppViewContainer"] {
-    background-color: #ffffff; /* Màu nền nội dung chính */
+    background-color: #1e1e1e; /* Màu nền nội dung chính */
     border-radius: 10px; /* Đường viền bo tròn cho nội dung chính */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho nội dung chính */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Đổ bóng cho nội dung chính */
 }
 
 [data-testid="stHeader"] {
@@ -32,12 +33,12 @@ body {
 [data-testid="stSidebar"] {
     background: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); /* Gradient màu nền sidebar */
     border-right: 1px solid #d3d3d3; /* Đường viền bên phải cho sidebar */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho sidebar */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Đổ bóng cho sidebar */
     border-radius: 0px 10px 10px 0px; /* Đường viền bo tròn bên trái dưới của sidebar */
 }
 </style>
 '''
-st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(page_bg_dark, unsafe_allow_html=True)
 
 ############################################################################################
 st.title("Content Based Filtering")
