@@ -43,7 +43,6 @@ Không giống như các phương pháp cộng tác chỉ dựa vào tương tá
 và các mục. Ý tưởng của các phương pháp dựa trên nội dung là cố gắng xây dựng một mô hình, dựa trên các "đặc điểm" có sẵn, 
 để giải thích các tương tác người dùng-mục đã quan sát được.
 
-Source: https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada
 """
 "\n"
 
