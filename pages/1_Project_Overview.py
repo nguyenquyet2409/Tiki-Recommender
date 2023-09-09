@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 
+
 st.markdown("# Project Overview")
 st.header("I. Project Objectives")
 """
@@ -30,10 +31,6 @@ st.image(image, caption='Two main types of Recommender System')
 "\n"
 st.subheader("Collaborative Filtering Methods")
 """
-Collaborative methods for recommender systems are methods that are based solely on the past interactions recorded between users and items in 
-order to produce new recommendations. These interactions are stored in the so-called “user-item interactions matrix”. Collaborative methods use 
-these past user-item interactions to detect similar users and/or similar items and make predictions based on these estimated proximities.
-
 Phương pháp này dựa hoàn toàn vào các tương tác trước đây được ghi lại giữa người dùng và các mục để tạo ra các gợi ý mới. 
 Các tương tác này được lưu trữ trong ma trận "user-item interactions matrix". 
 Các phương pháp cộng tác sử dụng để phát hiện ra các người dùng tương tự và/hoặc các mục tương tự 
@@ -42,10 +39,6 @@ và đưa ra các dự đoán dựa trên sự tương tự được ước tín
 "\n"
 st.subheader("Content Based Methods")
 """
-Unlike collaborative methods that only rely on the user-item interactions, content based approaches use additional information about users and/or 
-items. Then, the idea of content based methods is to try to build a model, based on the available “features”, that explain the observed user-item 
-interactions.
-
 Không giống như các phương pháp cộng tác chỉ dựa vào tương tác người dùng-mục, các phương pháp dựa trên nội dung sử dụng thông tin bổ sung về người dùng 
 và các mục. Ý tưởng của các phương pháp dựa trên nội dung là cố gắng xây dựng một mô hình, dựa trên các "đặc điểm" có sẵn, 
 để giải thích các tương tác người dùng-mục đã quan sát được.
@@ -64,6 +57,6 @@ st.header("III. Demo App")
 - Bằng cách nhập mô tả sản phẩm và yêu cầu hệ thống đề xuất.
 
 2. Collaborative Filtering Method
-- Bằng cách chọn id sản phẩm yêu cầu hệ thống đề xuất.
+- Bằng cách chọn customer id để yêu cầu hệ thống đề xuất.
 """
 "\n"
