@@ -235,7 +235,7 @@ def input_description():
     ##### CALLING PAGE  #####
 page_names_to_funcs = {
     "Chọn sản phẩm": filter_list,
-    "Nhập mô tả": input_description
+    "Tìm sản phẩm bằng cách nhập mô tả": input_description
     }
 selected_page = st.sidebar.selectbox("Chọn hình thức gợi ý sản phẩm", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
